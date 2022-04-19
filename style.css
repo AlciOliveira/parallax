@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-site{
+    background-image: url('aqui.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1800px;
+    margin-top: 0;
+    background-attachment: fixed;
+    padding-bottom: 400px; 
+}
+
+.gallery{
+    padding-bottom: 200px;
+     overflow: auto;
+     width: 100%;
+}
+
+.img1{
+    background-color: aqua;
+}
+div img {
+    display: flex;
+    width: 400px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin: auto;
+    position: sticky;
+    flex-direction: column;
+    top: 0;
+}
+
+
