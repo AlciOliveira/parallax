@@ -8,24 +8,18 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1800px;
     margin-top: 0;
     background-attachment: fixed;
-    padding-bottom: 400px; 
-}
-
-.gallery{
-    padding-bottom: 200px;
-     overflow: auto;
-     width: 100%;
+    padding-bottom: 700px;
 }
 
 .img1{
     background-color: aqua;
 }
 div img {
+    height: 700px;
+    overflow: auto;
     display: flex;
-    width: 400px;
     flex-shrink: 0;
     object-fit: cover;
     margin: auto;
